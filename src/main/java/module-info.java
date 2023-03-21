@@ -1,8 +1,9 @@
-module com.example.snakeandladder {
+module com.example.ladderandsnake.ladderandsnake {
     requires javafx.controls;
     requires javafx.fxml;
+    requires javafx.media;
 
 
-    opens com.example.snakeandladder to javafx.fxml;
-    exports com.example.snakeandladder;
+    opens com.example.ladderandsnake.ladderandsnake to javafx.fxml;
+    exports com.example.ladderandsnake.ladderandsnake;
 }
